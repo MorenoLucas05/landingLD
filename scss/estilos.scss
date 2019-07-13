@@ -1,0 +1,116 @@
+//------------------------------//
+		//PATRON DE COLORES//
+//-------------------------------//
+$principal:#027DC1;
+$texto:#F1F8FC;
+
+
+
+
+html{
+	font-size: 14px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+nav #nombre{
+	font-size: 2rem;
+	margin-left: 0.5rem;
+	margin-right: auto;
+}
+nav{
+	background-color: $principal;
+}
+nav #logo{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+#hamburguesa{
+	color: $texto;
+	border-color: $texto;
+	font-size: 2rem;
+}
+
+/*fin NAV*/
+.boton{
+	background-color: $principal;
+	// width: 8rem;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0 1.5rem ;
+	
+}
+#btnConocenos{
+	border: 1px solid $principal;
+	background-color: transparent;
+}
+/* .boton p{
+	margin: 0;
+	padding: 0;
+} */
+.boton a{
+	text-decoration: none;
+	font-size: 2rem;
+	margin: 1rem;
+	// padding: 0.5rem;
+}
+h1, h2, h3, h5, h6{
+	font-family: 'Rubik', sans-serif;
+}
+#home h1{
+	color: $principal;
+	font-size: 8rem;
+}
+#home h2{
+	color: $texto;
+	font-size: 4rem;
+}
+
+.jumbotron{
+	background-image: url("../img/codeBG.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+section{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2{
+	text-decoration-color: $principal;
+	text-decoration: underline;
+	font-size: 3rem;
+}
+#opiniones blockquote{
+	font-size: 1rem;
+	text-align: center;
+}
+#newsletter{
+	padding-top: 0;
+}
+.team{
+	max-width: 22rem;
+	max-height: 20rem;
+}
+.redesTeam a{
+	font-size: 2rem;
+	text-decoration: none;
+	margin: 0.5rem;
+}
+#slideTitulo{
+	font-size: 2rem;
+}
+#dropContainer{
+	background-color: $principal;
+	width: 2.2rem;
+	/*height: 2.5rem;*/
+	text-align:center;
+	border-color: $texto;
+}
+#dropContainer a{
+	margin-top: -0.3rem;
+	color: $texto;
+
+}

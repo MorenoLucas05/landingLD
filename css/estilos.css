@@ -1,0 +1,125 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav #nombre {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #027DC1;
+}
+
+nav #logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#hamburguesa {
+  color: #F1F8FC;
+  border-color: #F1F8FC;
+  font-size: 2rem;
+}
+
+/*fin NAV*/
+.boton {
+  background-color: #027DC1;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0 1.5rem;
+}
+
+#btnConocenos {
+  border: 1px solid #027DC1;
+  background-color: transparent;
+}
+
+/* .boton p{
+	margin: 0;
+	padding: 0;
+} */
+.boton a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h1, h2, h3, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+#home h1 {
+  color: #027DC1;
+  font-size: 8rem;
+}
+
+#home h2 {
+  color: #F1F8FC;
+  font-size: 4rem;
+}
+
+.jumbotron {
+  background-image: url("../img/codeBG.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2 {
+  -webkit-text-decoration-color: #027DC1;
+          text-decoration-color: #027DC1;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+#opiniones blockquote {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#newsletter {
+  padding-top: 0;
+}
+
+.team {
+  max-width: 22rem;
+  max-height: 20rem;
+}
+
+.redesTeam a {
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+#slideTitulo {
+  font-size: 2rem;
+}
+
+#dropContainer {
+  background-color: #027DC1;
+  width: 2.2rem;
+  /*height: 2.5rem;*/
+  text-align: center;
+  border-color: #F1F8FC;
+}
+
+#dropContainer a {
+  margin-top: -0.3rem;
+  color: #F1F8FC;
+}
+/*# sourceMappingURL=estilos.css.map */
