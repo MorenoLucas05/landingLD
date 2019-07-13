@@ -83,14 +83,14 @@ section {
   padding-bottom: 2rem;
 }
 
-#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2, #video h2 {
+#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2, #video h2, #contacto h2 {
   -webkit-text-decoration-color: #027DC1;
           text-decoration-color: #027DC1;
   text-decoration: underline;
   font-size: 3rem;
 }
 
-#video h2 {
+#video h2, #contacto h2 {
   text-decoration: none;
 }
 
