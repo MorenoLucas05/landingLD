@@ -10,7 +10,7 @@ body {
 
 nav #nombre {
   font-size: 2rem;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   margin-right: auto;
 }
 
@@ -18,9 +18,13 @@ nav {
   background-color: #027DC1;
 }
 
+.nav-link {
+  font-size: 1.5rem;
+}
+
 nav #logo {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 #hamburguesa {
@@ -79,15 +83,19 @@ section {
   padding-bottom: 2rem;
 }
 
-#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2 {
+#opiniones h2, #portfolio h2, #servicios h2, #aboutus h2, #video h2 {
   -webkit-text-decoration-color: #027DC1;
           text-decoration-color: #027DC1;
   text-decoration: underline;
   font-size: 3rem;
 }
 
+#video h2 {
+  text-decoration: none;
+}
+
 #opiniones blockquote {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
