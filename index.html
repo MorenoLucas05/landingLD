@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+	<!-- Aos CSS -->	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<!-- Css Personalizados -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -78,9 +81,11 @@
 				adipisicing elit.</p>
 
 			<div class="row d-flex justify-content-center">
-				<div class=" text-center boton" id="btnConocenos"><a href="#video" class=" text-white">Conocenos</a>
+				<div class=" text-center boton" id="btnConocenos" data-aos="fade-up" data-aos-easing="ease-in-out"
+					data-aos-duration="600"><a href="#video" class=" text-white">Conocenos</a>
 				</div>
-				<div class="text-center boton" id="btnContacto"><a href="#contacto" class=" text-white">Contactanos</a>
+				<div class="text-center boton" id="btnContacto" data-aos="fade-up"  data-aos-easing="ease-in-out"
+					data-aos-duration="600"><a href="#contacto" class=" text-white">Contactanos</a>
 				</div>
 			</div>
 		</div>
@@ -103,7 +108,7 @@
 				<h2 class="display-4 text-center text-primary mb-4">Opiniones</h2>
 				<div class="row">
 					<div class="col-12 col-md-6 col-xl-3">
-						<blockquote class="blockquote p-3">
+						<blockquote class="blockquote p-3" data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-duration="900">
 							<p><i class="fas fa-fw fa-quote-left text-secondary"></i>Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<i
 									class="fas fa-fw fa-quote-right text-secondary"></i></p>
@@ -112,7 +117,7 @@
 						</blockquote>
 					</div>
 					<div class="col-12 col-md-6 col-xl-3">
-						<blockquote class="blockquote p-3">
+						<blockquote class="blockquote p-3" data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-duration="900">
 							<p><i class="fas fa-fw fa-quote-left text-secondary"></i>Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<i
 									class="fas fa-fw fa-quote-right text-secondary"></i></p>
@@ -121,7 +126,7 @@
 						</blockquote>
 					</div>
 					<div class="col-12 col-md-6 col-xl-3">
-						<blockquote class="blockquote p-3">
+						<blockquote class="blockquote p-3" data-aos="slide-left" data-aos-easing="ease-in-out" data-aos-duration="900">
 							<p><i class="fas fa-fw fa-quote-left text-secondary"></i>Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<i
 									class="fas fa-fw fa-quote-right text-secondary"></i></p>
@@ -130,7 +135,7 @@
 						</blockquote>
 					</div>
 					<div class="col-12 col-md-6 col-xl-3">
-						<blockquote class="blockquote p-3">
+						<blockquote class="blockquote p-3" data-aos="slide-left" data-aos-easing="ease-in-out" data-aos-duration="900">
 							<p><i class="fas fa-fw fa-quote-left  text-secondary"></i>Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<i
 									class="fas fa-fw fa-quote-right  text-secondary"></i></p>
@@ -199,28 +204,32 @@
 	<section class="container" id="servicios">
 		<h2 class="display-4 text-center mb-5 display-4 text-primary">Servicios</h2>
 		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 mt-3">
+			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 mt-3" data-aos="fade-right"
+				data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-once="true">
 				<div class="mb-4"><img class="border border-white" src="img/brush.svg"></div>
 				<h3 class="h4 mb-4 text-center">Diseño Personalizado</h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor.</p>
 				<a href="#" class="btn btn-sm btn-info mt-auto">Ver más</a>
 			</div>
-			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5" data-aos="fade-right"
+				data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="500" data-aos-once="true">
 				<div class="mb-4"><img src="img/NetworkSharingByN.svg"></div>
 				<h3 class="h4 mb-4 text-center">Marketing Digital</h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor.</p>
 				<a href="#" class="btn btn-sm btn-info mt-auto">Ver más</a>
 			</div>
-			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5" data-aos="fade-right"
+				data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="900" data-aos-once="true">
 				<div class="mb-4"><img src="img/seo.svg"></div>
 				<h3 class="h4 mb-4 text-center">SEO</h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor.</p>
 				<a href="#" class="btn btn-sm btn-info mt-auto">Ver más</a>
 			</div>
-			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+			<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5" data-aos="fade-right"
+				data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="1300" data-aos-once="true">
 				<div class="mb-4"><img src="img/cart.svg"></div>
 				<h3 class="h4 mb-4 text-center">E-Comerce</h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -445,7 +454,7 @@
 
 
 	<!-- JavaScript -->
-	<!-- jQuery, Popper.js,Bootstrap JS -->
+	<!-- jQuery, Popper.js,Bootstrap JS, AOS js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -455,6 +464,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 		crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+	<!-- App.js -->
+	<script src="js/app.js"></script>	
 </body>
 
 </html>
