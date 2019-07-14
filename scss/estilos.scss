@@ -48,6 +48,9 @@ nav #logo{
 	border: 2px solid $principal;
 	background-color: transparent;
 }
+#btnConocenos a{
+	color: $texto;
+}
 /* .boton p{
 	margin: 0;
 	padding: 0;
@@ -63,11 +66,11 @@ h1, h2, h3, h5, h6{
 }
 #home h1{
 	color: $principal;
-	font-size: 8rem;
+	font-size: 7.5rem;
 }
 #home h2{
 	color: $texto;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 .jumbotron{
